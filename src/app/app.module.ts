@@ -9,7 +9,6 @@ import { BadgeComponent } from './components/badge/badge.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { ButtonComponent } from './components/button/button.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AtividadeComponent } from './components/atividade/atividade.component';
 
 @NgModule({
   imports: [
@@ -19,13 +18,7 @@ import { AtividadeComponent } from './components/atividade/atividade.component';
     HttpClientModule,
     ReactiveFormsModule,
   ],
-  declarations: [
-    AppComponent,
-    ButtonComponent,
-    AlertComponent,
-    BadgeComponent,
-    AtividadeComponentent,
-  ],
+  declarations: [AppComponent, ButtonComponent, AlertComponent, BadgeComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
